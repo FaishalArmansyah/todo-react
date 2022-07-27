@@ -3,12 +3,12 @@ pipeline {
    stages {
        stage('build app') {
            steps {
-               sh 'npm install'
+              sh 'npm install'
            }
        }
        stage('test app') {
            steps {
-               sh 'npm test'
+              sh 'npm test'
            }
        }
     }
